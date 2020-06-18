@@ -1,0 +1,19 @@
+#hd_center {
+    position: relative;
+    z-index: 5;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.w_custom_center {
+    max-width: 1200px;
+    height: 148px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    transition: all 0.2s;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
