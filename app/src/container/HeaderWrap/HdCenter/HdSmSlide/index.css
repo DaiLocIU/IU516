@@ -98,3 +98,25 @@
     margin: 0;
 }
 .hd_center .hd_sm_slide .slick-dots li.slick-active button { background-color: #000000 }
+
+@media only screen and (max-width: 1217px) {
+   .hd_center .hd_sm_slide {
+       left: 10px;
+   }
+}
+@media only screen and (max-width: 1023px) {
+    .hd_center .hd_sm_slide {
+        width: 260px;
+    }
+    .hd_center .hd_sm_slide, .hd_center .hd_sm_slide .slick-slide a, .hd_center .hd_sm_slide .slick-slide img {
+        height: 74px;
+    }
+}
+@media only screen and (max-width: 860px) {
+    .hd_center .hd_sm_slide {
+        display:none;
+        position: absolute;
+    }
+ }
+
+

@@ -10,6 +10,8 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 body { font-size: 12px; line-height: 1.5; color: #333}
 body { min-width: 320px; width: auto !important; }
 a { color: #333333; text-decoration: none}
+div, ul, li, ol, dl, dt, dd, p, td, th, span, button, a, em, address, strong, input, select {box-sizing:border-box;}
+
 
 body {
   margin: 0;

@@ -78,3 +78,26 @@
     font-size: 12px;
     outline: none;
 }
+
+@media only screen and (max-width: 1217px) {
+    .hd_center .search_wrap {
+        right: 10px;
+    }
+ }
+ @media only screen and (max-width: 1023px) {
+     .hd_center .search_wrap {
+         width: 230px;
+     }
+   
+ }
+ @media only screen and (max-width: 860px) {
+    .hd_center .search_wrap {
+        display: none;
+        position: absolute;
+    }
+  
+}
+
+
+ 
+ 
