@@ -4,7 +4,7 @@ import logo from '../../../img/banner/madeedam.jpg';
 import HdSmSlide from './HdSmSlide';
 import HdSearchWrap from './HdSearchWrap/index';
 import HdAll from './HdAll';
-import HdLnb from './HdLnb'
+import HdLnb from './HdLnb';
 
 const HdCenter : React.FC = () => (
   <div className="hd_center">

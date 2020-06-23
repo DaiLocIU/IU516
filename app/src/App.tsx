@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import HeaderWrap from './container/HeaderWrap';
 import Container from './container/Container';
+import MainVisual from './container/Container/MainVisual'
 import Footer from './container/Footer';
 import ScrollWrap from './container/ScrollWrap';
 
@@ -9,6 +10,7 @@ const App : React.FC = () => (
   <div id="wrap">
     <HeaderWrap />
     <Container />
+    {/* <MainVisual /> */}
     <Footer />
     <br />
     <br />

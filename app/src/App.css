@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   min-width: 320px;
-  display: grid;
   position: relative;
   min-width: 1450px;
 }

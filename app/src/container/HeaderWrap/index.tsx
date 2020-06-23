@@ -1,6 +1,8 @@
 import React from 'react';
 import HdTop from './HdTop';
 import HdCenter from './HdCenter';
+import HdLnb from './HdLnb'
+import HdLayerM from './HdLayerM'
 import './index.css';
 
 const HeaderWrap : React.FC = () => (
@@ -9,8 +11,11 @@ const HeaderWrap : React.FC = () => (
       <div className="hd_wrapper">
         <HdTop />
         <HdCenter />
+        <HdLnb />
       </div>
     </div>
+    <HdLayerM />
+    <div id="hd_dim"></div>
   </div>
 );
 export default HeaderWrap;
